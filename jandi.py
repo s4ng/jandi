@@ -5,7 +5,7 @@ import datetime
 
 def main():
     config = read_config()
-    git_init(config)
+#    git_init(config)
     file_init()
     word_array = characters.get_word_array(config['word'], config['weeksBefore'])
     for i in range(0, len(word_array)):
