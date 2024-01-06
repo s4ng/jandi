@@ -5,7 +5,7 @@ import datetime
 
 def main():
     config = read_config()
-#    git_init(config)
+    git_init(config)
     file_init()
     word_array = characters.get_word_array(config['word'], config['weeksBefore'])
     for i in range(0, len(word_array)):
@@ -48,6 +48,7 @@ def create_commites(word_array):
     for i in reversed(range(len(word_array[0]))):
         for j in reversed(range(7)):
             if word_array[j][i] == True:
+                create_git_commit(days_before)
                 create_git_commit(days_before)
             days_before += 1
 

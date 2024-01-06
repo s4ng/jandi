@@ -9,7 +9,8 @@
 
 ### 사용법
 
-1. https://github.com/s4ng/jandi 레포지토리 git clone
+1. git clone https://github.com/s4ng/jandi
+2. cd jandi
 2. rm -rf .git
 3. git init
 4. config.json 수정
