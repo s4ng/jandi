@@ -2,6 +2,8 @@
 
 깃허브 잔디에 단어 쓰기
 
+<img width="757" height="222" alt="image" src="https://github.com/user-attachments/assets/0caf82f1-c5b7-471a-9d85-f6ef2085039b" />
+
 ### Requirement
 
 - git
